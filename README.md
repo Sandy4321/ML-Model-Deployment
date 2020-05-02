@@ -10,9 +10,13 @@ You must have sklearn, pandas and Flask (for API) installed.
 
 This project has two major parts :
 
-model.py - This contains code for our model to predict absence or presence of disease based on trainign data in 'raw_cardio.csv' file.
+model.py - This contains code for our model to predict absence or presence of disease based on trainign data in 
 
-app.py - This contains Flask APIs that receives patient details through GUI or API calls, computes the precited value based on our model and returns it.
+'raw_cardio.csv' file.
+
+app.py - This contains Flask APIs that receives patient details through GUI or API calls, computes the precited value based 
+
+on our model and returns it.
 
 # Running the project
 
@@ -23,10 +27,13 @@ python model.py
 This would create a serialized version of our model into a file model.pkl
 
 Run app.py using below command to start Flask API
+
 python app.py
+
 By default, flask will run on port 5000.
 
 Navigate to URL http://localhost:5000
+
 You should be able to view the homepage as below : alt text
 
 Enter valid numerical values in all input boxes and hit Predict.
