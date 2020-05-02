@@ -2,11 +2,12 @@
 
 This is a project to elaborate Cardiovascular model training and its for production using Flask API
 
-Prerequisites
+
+# Prerequisites
 
 You must have Scikit Learn, Pandas and Flask (for API) installed.
 
-Project Structure
+# Project Structure
 
 This project has four major parts :
 
@@ -14,7 +15,7 @@ model.py - This contains code fot our Machine Learning model to predict presence
 
 app.py - This contains Flask APIs that receives patient details through GUI or API calls, computes the absence and presence of disease based on our model and returns it.
 
-Running the project
+# Running the project
 
 Ensure that you are in the project home directory. Create the machine learning model by running below command -
 python model.py
@@ -35,4 +36,4 @@ Enter valid numerical values in all input boxes and hit Predict.
 
 If everything goes well, you should be able to see the predcited salary vaule on the HTML page!
 
-![Screenshot](screenshot.png)
+![Screenshot](image.png)
