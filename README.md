@@ -17,6 +17,7 @@ app.py - This contains Flask APIs that receives patient details through GUI or A
 # Running the project
 
 Ensure that you are in the project home directory. Create the machine learning model by running below command -
+
 python model.py
 
 This would create a serialized version of our model into a file model.pkl
