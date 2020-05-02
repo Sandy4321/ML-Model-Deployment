@@ -31,6 +31,6 @@ You should be able to view the homepage as below : alt text
 
 Enter valid numerical values in all input boxes and hit Predict.
 
-If everything goes well, you should be able to see the predcited salary vaule on the HTML page!
+If everything goes well, you should be able to see the absence or presence of cardiovascular disease on the HTML page!
 
 ![Screenshot](image.png)
