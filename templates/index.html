@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Cardiovascular API</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <link rel="icon" href="favicon.ico ">
+  
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+ <div class="login">
+
+	<h1> Predict Cardiovascular Disease </h1>
+
+    <!-- Main Input For Receiving Query to our ML -->
+
+    <form action="{{ url_for('predict')}}"method="post">
+
+      <input type="text" name="age" placeholder="Age" required="required" /><br>
+
+      <input type="text" name="gender" placeholder="Gender" required="required" /><br>
+
+		  <input type="text" name="height" placeholder="Height" required="required" /><br>
+
+      <input type="text" name="weight" placeholder="Weight" required="required" /><br>
+
+      <input type="text" name="ap_hi" placeholder="Systolic blood pressure" required="required" /><br>
+
+      <input type="text" name="ap_lo" placeholder="Diastolic blood pressure" required="required" /><br>
+
+      <input type="text" name="cholesterol" placeholder="Cholesterol" required="required" /><br>
+
+      <input type="text" name="gluc" placeholder="Glucose" required="required" /><br>
+
+      <input type="text" name="smoke" placeholder="Smoking" required="required" /><br>
+
+      <input type="text" name="alco" placeholder="Alcohol intake" required="required" /><br>
+
+      <input type="text" name="active" placeholder="Physical activity" required="required" /><br>
+
+
+      <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+
+    </form>
+
+    <br>
+
+    {{ prediction_text }}
+
+    <br>
+
+   </div>
+
+  </body>
+
+</html>
