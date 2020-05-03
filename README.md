@@ -1,6 +1,6 @@
 # Cardiovascular-Prediction-Deployment
 
-This is a project to elaborate the cardiovascular predictive model and its deployment on production using Flask API
+This is a project to elaborate the cardiovascular predictive model and its deployment for production using Flask API
 
 # Prerequisites
 
