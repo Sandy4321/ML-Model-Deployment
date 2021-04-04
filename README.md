@@ -10,7 +10,7 @@ You must have sklearn, pandas and Flask (for API) installed.
 
 This project has two major parts :
 
-model.py - This contains code for our model to predict absence or presence of disease based on trainign data in 
+model.py - This contains code for our model to predict absence or presence of disease based on training data in 
 
 'raw_cardio.csv' file.
 
